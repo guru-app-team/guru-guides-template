@@ -1,0 +1,2948 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "guideline",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T06:09:56.270Z",
+        "updatedAt": "2024-08-07T01:27:54.024Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2024-08-07T01:27:54.024Z",
+        "firstPublishedAt": "2024-07-28T06:09:56.832Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/guideline"
+      },
+      "displayField": "title",
+      "name": "Guideline",
+      "description": "A content type to manage the component guidelines.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Component Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Component Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "figmaLink",
+          "name": "Figma Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "storybookLink",
+          "name": "Storybook Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "docsLink",
+          "name": "Docs Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "sections",
+          "name": "Sections",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "variantSection",
+                  "contentSection",
+                  "usageSection",
+                  "rules",
+                  "relatedSection",
+                  "behaviourSection",
+                  "anatomySection",
+                  "accessibilitySection"
+                ],
+                "message": "Please select a section"
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "contentBlock",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T06:33:08.668Z",
+        "updatedAt": "2024-07-28T10:31:59.068Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2024-07-28T10:31:59.068Z",
+        "firstPublishedAt": "2024-07-28T06:33:09.102Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/contentBlock"
+      },
+      "displayField": "heading",
+      "name": "Content_Basic",
+      "description": "A content type to manage detailed content blocks within sections.",
+      "fields": [
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "text",
+          "name": "Text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "doDontItem",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T06:34:39.865Z",
+        "updatedAt": "2024-07-28T11:51:49.867Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2024-07-28T11:51:49.867Z",
+        "firstPublishedAt": "2024-07-28T06:34:40.280Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/doDontItem"
+      },
+      "displayField": "text",
+      "name": "Content_Rules_Item",
+      "description": "An item for 'Do' and 'Don't' sections.",
+      "fields": [
+        {
+          "id": "text",
+          "name": "Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "rules",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T07:48:11.304Z",
+        "updatedAt": "2024-07-28T11:52:03.538Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 37,
+        "publishedAt": "2024-07-28T11:52:03.538Z",
+        "firstPublishedAt": "2024-07-28T07:48:11.766Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 19,
+        "version": 38,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/rules"
+      },
+      "displayField": "heading",
+      "name": "Section_Rules",
+      "description": "A Section to manage Do & Don't rules",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "rules"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Rules"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "doDontContentBlock"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "doDontContentBlock",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T07:56:19.559Z",
+        "updatedAt": "2024-07-28T11:47:13.035Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2024-07-28T11:47:13.035Z",
+        "firstPublishedAt": "2024-07-28T07:56:19.993Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/doDontContentBlock"
+      },
+      "displayField": "heading",
+      "name": "Content_Rules",
+      "description": "Manage Do & Don't content blocks within RuleSection.",
+      "fields": [
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "text",
+          "name": "Text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "doContent",
+          "name": "Do Content",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "doDontItem"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "dontContent",
+          "name": "Don't Content",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "doDontItem"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "usageSection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:39:11.398Z",
+        "updatedAt": "2024-07-28T10:34:21.357Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 23,
+        "publishedAt": "2024-07-28T10:34:21.357Z",
+        "firstPublishedAt": "2024-07-28T09:39:11.921Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 12,
+        "version": 24,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/usageSection"
+      },
+      "displayField": "heading",
+      "name": "Section_Usage",
+      "description": "Describe the usage of the component",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "usage"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Usage"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "list",
+          "name": "List",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "listType",
+          "name": "List type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "ol",
+                "ul"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "ol"
+          },
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "anatomySection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:39:33.032Z",
+        "updatedAt": "2024-07-28T10:44:21.030Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2024-07-28T10:44:21.030Z",
+        "firstPublishedAt": "2024-07-28T09:39:33.543Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/anatomySection"
+      },
+      "displayField": "heading",
+      "name": "Section_Anatomy",
+      "description": "Showcase the anatomy of the component",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "anatomy"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Anatomy"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "list",
+          "name": "List",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "listType",
+          "name": "List type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "ol",
+                "ul"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "ol"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "variantSection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:40:07.091Z",
+        "updatedAt": "2024-07-28T11:15:48.862Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 29,
+        "publishedAt": "2024-07-28T11:15:48.862Z",
+        "firstPublishedAt": "2024-07-28T09:40:07.674Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 15,
+        "version": 30,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/variantSection"
+      },
+      "displayField": "heading",
+      "name": "Section_Variant",
+      "description": "Provide the variant options for the component",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "variants"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Variants"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content_Basic",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "contentBlock"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "behaviourSection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:40:26.963Z",
+        "updatedAt": "2024-07-29T03:51:18.314Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2024-07-29T03:51:18.314Z",
+        "firstPublishedAt": "2024-07-28T09:40:27.399Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/behaviourSection"
+      },
+      "displayField": "heading",
+      "name": "Section_Behaviour",
+      "description": "Describe the behaviour of the component",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "behaviour"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Behaviour"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "list",
+          "name": "List",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "listType",
+          "name": "List type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "ol",
+                "ul"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "ul"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "accessibilitySection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:40:45.201Z",
+        "updatedAt": "2024-07-28T11:28:07.221Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 25,
+        "publishedAt": "2024-07-28T11:28:07.221Z",
+        "firstPublishedAt": "2024-07-28T09:40:46.065Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 13,
+        "version": 26,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/accessibilitySection"
+      },
+      "displayField": "heading",
+      "name": "Section_Accessibility",
+      "description": "Describe best practice for accessibility",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "accessibility"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Accessibility"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "list",
+          "name": "List",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "listType",
+          "name": "List type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "ol",
+                "ul"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "ul"
+          },
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "contentSection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:41:14.746Z",
+        "updatedAt": "2024-08-01T01:09:49.984Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 29,
+        "publishedAt": "2024-08-01T01:09:49.984Z",
+        "firstPublishedAt": "2024-07-28T09:41:15.315Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 15,
+        "version": 30,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/contentSection"
+      },
+      "displayField": "heading",
+      "name": "Section_WrittenContent",
+      "description": "Guidelines for writing content",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "content"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Content"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "list",
+          "name": "List",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "listType",
+          "name": "List type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "ol",
+                "ul"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "ul"
+          },
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "relatedSection",
+        "type": "ContentType",
+        "createdAt": "2024-07-28T09:41:32.184Z",
+        "updatedAt": "2024-07-31T06:31:40.006Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 29,
+        "publishedAt": "2024-07-31T06:31:40.006Z",
+        "firstPublishedAt": "2024-07-28T09:41:32.803Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 15,
+        "version": 30,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/relatedSection"
+      },
+      "displayField": "heading",
+      "name": "Section_Related",
+      "description": "Add related patterns or components",
+      "fields": [
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "usage",
+                "anatomy",
+                "variants",
+                "behaviour",
+                "accessibility",
+                "rules",
+                "content",
+                "related"
+              ]
+            }
+          ],
+          "defaultValue": {
+            "en-US": "related"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "defaultValue": {
+            "en-US": "Related"
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "contentRelatedItem"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "organisation",
+        "type": "ContentType",
+        "createdAt": "2024-07-29T00:46:15.565Z",
+        "updatedAt": "2024-07-29T00:48:54.442Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-07-29T00:48:54.442Z",
+        "firstPublishedAt": "2024-07-29T00:46:16.042Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/organisation"
+      },
+      "displayField": "title",
+      "name": "Organisation",
+      "description": "The Organisation content type is used to define the global settings for the organisation. This includes the main heading, logo, theme color, and references to the various guidelines that are applicable across the application. These settings provide a consistent look and feel and are used across multiple components such as the header and introduction sections.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "logo",
+          "name": "Logo",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "theme",
+          "name": "Theme",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "guidelines",
+          "name": "Guidelines",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "guideline"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "id": "contentRelatedItem",
+        "type": "ContentType",
+        "createdAt": "2024-07-31T04:41:36.062Z",
+        "updatedAt": "2024-08-01T01:15:39.457Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2024-08-01T01:15:39.457Z",
+        "firstPublishedAt": "2024-07-31T04:41:36.495Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/contentRelatedItem"
+      },
+      "displayField": "title",
+      "name": "Content_Related",
+      "description": "Add links to related components",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 20,
+        "createdAt": "2024-07-28T06:09:56.932Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-08-07T01:27:54.850Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "guideline",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The title of the guideline."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "A detailed description of the guideline."
+          },
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "figmaLink",
+          "settings": {
+            "helpText": "URL to the Figma design file."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "storybookLink",
+          "settings": {
+            "helpText": "URL to the Storybook documentation."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "docsLink",
+          "settings": {
+            "helpText": "URL to the related documentation."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "sections",
+          "settings": {
+            "helpText": "A list of sections included in this guideline.",
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 16,
+        "createdAt": "2024-07-28T06:33:09.226Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T10:31:59.959Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "contentBlock",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the content block."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "text",
+          "settings": {
+            "helpText": "The text content of the block."
+          },
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "An image related to the content block.",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 10,
+        "createdAt": "2024-07-28T06:34:40.339Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T11:51:51.196Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "doDontItem",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "text",
+          "settings": {
+            "helpText": "The text of the item."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "An image related to the item.",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 38,
+        "createdAt": "2024-07-28T07:48:11.919Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T11:52:04.840Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "rules",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "settings": {
+            "helpText": "This field references multiple ContentBlock entries. It allows you to include various types of detailed content within the section, such as text blocks, images, and other media. This structure enables a flexible and comprehensive layout for each section.",
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 14,
+        "createdAt": "2024-07-28T07:56:20.108Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T11:47:13.959Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "doDontContentBlock",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the content block."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "text",
+          "settings": {
+            "helpText": "The text content of the block."
+          },
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "doContent",
+          "settings": {
+            "helpText": "List of 'Do' items.",
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "dontContent",
+          "settings": {
+            "helpText": "List of 'Don't' items.",
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 24,
+        "createdAt": "2024-07-28T09:39:12.080Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T10:34:22.997Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "usageSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "list",
+          "settings": {
+            "helpText": "A list of items within the section."
+          },
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "listType",
+          "settings": {
+            "helpText": "The type of list (e.g., ul, ol)."
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 16,
+        "createdAt": "2024-07-28T09:39:33.722Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T10:44:21.820Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "anatomySection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "A detailed description of the section."
+          },
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "list",
+          "settings": {
+            "helpText": "A list of items within the section."
+          },
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "listType",
+          "settings": {
+            "helpText": "The type of list (e.g., ul, ol)."
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "An image related to the section.",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 30,
+        "createdAt": "2024-07-28T09:40:07.823Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T11:15:49.789Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "variantSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "A detailed description of the section."
+          },
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "settings": {
+            "helpText": "This field references multiple ContentBlock entries. It allows you to include various types of detailed content within the section, such as text blocks, images, and other media. This structure enables a flexible and comprehensive layout for each section.",
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 18,
+        "createdAt": "2024-07-28T09:40:27.573Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-29T03:51:19.423Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "behaviourSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "A detailed description of the section."
+          },
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "list",
+          "settings": {
+            "helpText": "A list of items within the section."
+          },
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "listType",
+          "settings": {
+            "helpText": "The type of list (e.g., ul, ol)."
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "An image related to the section.",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 26,
+        "createdAt": "2024-07-28T09:40:46.313Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-28T11:28:08.037Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "accessibilitySection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "list",
+          "settings": {
+            "helpText": "A list of items within the section."
+          },
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "listType",
+          "settings": {
+            "helpText": "The type of list (e.g., ul, ol)."
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 30,
+        "createdAt": "2024-07-28T09:41:15.476Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-08-01T01:09:50.895Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "contentSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "list",
+          "settings": {
+            "helpText": "A list of items within the section."
+          },
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "listType",
+          "settings": {
+            "helpText": "The type of list (e.g., ul, ol)."
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 30,
+        "createdAt": "2024-07-28T09:41:32.966Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-31T06:31:40.832Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "relatedSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "type",
+          "settings": {
+            "helpText": "The type of the section"
+          },
+          "widgetId": "radio",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heading",
+          "settings": {
+            "helpText": "The heading of the section."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2024-07-29T00:46:16.164Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-07-29T00:48:55.350Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "organisation",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "Name your organisation guidelines"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "logo",
+          "settings": {
+            "helpText": "Minimum 30x30px, ideally you provide SVG or a 2x-3x image for HD displays",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "theme",
+          "settings": {
+            "helpText": "Select a colour value for the theme of your guidelines. E.g. #b5d8a2"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "guidelines",
+          "settings": {
+            "helpText": "Select your guidelines",
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "2waay8xeshgg",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2024-07-31T04:41:36.625Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-08-01T01:15:40.456Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Efd4lJDRrilX0bjD8vo5O",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "contentRelatedItem",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "Add a related component. E.g. 'Button'"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "Add a brief component description. E.g. 'Reserve buttons for core actions on a page.'"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "url",
+          "settings": {
+            "helpText": "Link to the Figma component."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "6ViXnPygcRmT0m53MX9EoZ",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "e7098952-ce3e-476c-9e8c-fe829e657dc3"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "createdAt": "2024-07-28T05:48:07Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedAt": "2024-07-28T05:48:07Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "6VAMQe0adcUR3dlXOTvjDv",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2waay8xeshgg"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "createdAt": "2024-07-28T05:48:07Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Efd4lJDRrilX0bjD8vo5O"
+          }
+        },
+        "updatedAt": "2024-07-28T05:48:07Z"
+      }
+    }
+  ]
+}
