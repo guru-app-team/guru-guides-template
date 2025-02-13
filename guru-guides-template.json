@@ -12,7 +12,7 @@
         "id": "guideline",
         "type": "ContentType",
         "createdAt": "2024-07-28T06:09:56.270Z",
-        "updatedAt": "2024-08-07T01:27:54.024Z",
+        "updatedAt": "2024-09-14T08:24:17.400Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 19,
-        "publishedAt": "2024-08-07T01:27:54.024Z",
+        "publishedVersion": 51,
+        "publishedAt": "2024-09-14T08:24:17.400Z",
         "firstPublishedAt": "2024-07-28T06:09:56.832Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 10,
-        "version": 20,
+        "publishedCounter": 26,
+        "version": 52,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -49,8 +49,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/guideline"
       },
       "displayField": "title",
-      "name": "Guideline",
-      "description": "A content type to manage the component guidelines.",
+      "name": "1_Component_Guidelines",
+      "description": "INDIVIDUAL GUIDELINE: Start creating guides for your organisation. E.g. Button | Input | Drawer",
       "fields": [
         {
           "id": "title",
@@ -151,7 +151,7 @@
         "id": "contentBlock",
         "type": "ContentType",
         "createdAt": "2024-07-28T06:33:08.668Z",
-        "updatedAt": "2024-07-28T10:31:59.068Z",
+        "updatedAt": "2024-12-10T04:14:17.103Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -159,8 +159,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2024-07-28T10:31:59.068Z",
+        "publishedVersion": 39,
+        "publishedAt": "2024-12-10T04:14:17.103Z",
         "firstPublishedAt": "2024-07-28T06:33:09.102Z",
         "createdBy": {
           "sys": {
@@ -176,8 +176,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 8,
-        "version": 16,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -188,8 +188,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/contentBlock"
       },
       "displayField": "heading",
-      "name": "Content_Basic",
-      "description": "A content type to manage detailed content blocks within sections.",
+      "name": "4_Variant_Section_Block",
+      "description": "VARIANT BLOCK: Provide a visual example and description of the variant option(s).",
       "fields": [
         {
           "id": "heading",
@@ -204,7 +204,7 @@
         },
         {
           "id": "text",
-          "name": "Text",
+          "name": "Description",
           "type": "Text",
           "localized": false,
           "required": false,
@@ -239,7 +239,7 @@
         "id": "doDontItem",
         "type": "ContentType",
         "createdAt": "2024-07-28T06:34:39.865Z",
-        "updatedAt": "2024-07-28T11:51:49.867Z",
+        "updatedAt": "2024-08-26T01:53:04.819Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -247,8 +247,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2024-07-28T11:51:49.867Z",
+        "publishedVersion": 33,
+        "publishedAt": "2024-08-26T01:53:04.819Z",
         "firstPublishedAt": "2024-07-28T06:34:40.280Z",
         "createdBy": {
           "sys": {
@@ -264,8 +264,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 17,
+        "version": 34,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -276,8 +276,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/doDontItem"
       },
       "displayField": "text",
-      "name": "Content_Rules_Item",
-      "description": "An item for 'Do' and 'Don't' sections.",
+      "name": "8_DoDont_Section_Item",
+      "description": "DO & DON'T ITEM: Create an individual item for the Do &  Don't sections.",
       "fields": [
         {
           "id": "text",
@@ -316,7 +316,7 @@
         "id": "rules",
         "type": "ContentType",
         "createdAt": "2024-07-28T07:48:11.304Z",
-        "updatedAt": "2024-07-28T11:52:03.538Z",
+        "updatedAt": "2024-08-26T01:46:30.290Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -324,8 +324,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 37,
-        "publishedAt": "2024-07-28T11:52:03.538Z",
+        "publishedVersion": 51,
+        "publishedAt": "2024-08-26T01:46:30.290Z",
         "firstPublishedAt": "2024-07-28T07:48:11.766Z",
         "createdBy": {
           "sys": {
@@ -341,8 +341,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 19,
-        "version": 38,
+        "publishedCounter": 26,
+        "version": 52,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -353,8 +353,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/rules"
       },
       "displayField": "heading",
-      "name": "Section_Rules",
-      "description": "A Section to manage Do & Don't rules",
+      "name": "8_DoDont_Section",
+      "description": "DO & DON'T: Attach Do & Don't guidelines.",
       "fields": [
         {
           "id": "type",
@@ -398,7 +398,7 @@
         },
         {
           "id": "content",
-          "name": "Content",
+          "name": "DoDont_Section_Block",
           "type": "Array",
           "localized": false,
           "required": false,
@@ -432,7 +432,7 @@
         "id": "doDontContentBlock",
         "type": "ContentType",
         "createdAt": "2024-07-28T07:56:19.559Z",
-        "updatedAt": "2024-07-28T11:47:13.035Z",
+        "updatedAt": "2024-08-26T01:51:51.736Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -440,8 +440,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2024-07-28T11:47:13.035Z",
+        "publishedVersion": 35,
+        "publishedAt": "2024-08-26T01:51:51.736Z",
         "firstPublishedAt": "2024-07-28T07:56:19.993Z",
         "createdBy": {
           "sys": {
@@ -457,8 +457,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 7,
-        "version": 14,
+        "publishedCounter": 18,
+        "version": 36,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -469,8 +469,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/doDontContentBlock"
       },
       "displayField": "heading",
-      "name": "Content_Rules",
-      "description": "Manage Do & Don't content blocks within RuleSection.",
+      "name": "8_DoDont_Section_Block",
+      "description": "DO & DON'T BLOCK: Manage Do & Don't content blocks.",
       "fields": [
         {
           "id": "heading",
@@ -564,7 +564,7 @@
         "id": "usageSection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:39:11.398Z",
-        "updatedAt": "2024-07-28T10:34:21.357Z",
+        "updatedAt": "2024-08-26T01:33:04.587Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -572,8 +572,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 23,
-        "publishedAt": "2024-07-28T10:34:21.357Z",
+        "publishedVersion": 33,
+        "publishedAt": "2024-08-26T01:33:04.587Z",
         "firstPublishedAt": "2024-07-28T09:39:11.921Z",
         "createdBy": {
           "sys": {
@@ -589,8 +589,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 12,
-        "version": 24,
+        "publishedCounter": 17,
+        "version": 34,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -601,8 +601,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/usageSection"
       },
       "displayField": "heading",
-      "name": "Section_Usage",
-      "description": "Describe the usage of the component",
+      "name": "2_Usage_Section",
+      "description": "USAGE: Describe the usage of the component using bullet points.",
       "fields": [
         {
           "id": "type",
@@ -675,7 +675,7 @@
             }
           ],
           "defaultValue": {
-            "en-US": "ol"
+            "en-US": "ul"
           },
           "disabled": false,
           "omitted": false
@@ -694,7 +694,7 @@
         "id": "anatomySection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:39:33.032Z",
-        "updatedAt": "2024-07-28T10:44:21.030Z",
+        "updatedAt": "2024-08-26T01:34:46.182Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -702,8 +702,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2024-07-28T10:44:21.030Z",
+        "publishedVersion": 23,
+        "publishedAt": "2024-08-26T01:34:46.182Z",
         "firstPublishedAt": "2024-07-28T09:39:33.543Z",
         "createdBy": {
           "sys": {
@@ -719,8 +719,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 8,
-        "version": 16,
+        "publishedCounter": 12,
+        "version": 24,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -731,8 +731,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/anatomySection"
       },
       "displayField": "heading",
-      "name": "Section_Anatomy",
-      "description": "Showcase the anatomy of the component",
+      "name": "3_Anatomy_Section",
+      "description": "ANATOMY: Showcase the anatomy of the component using a numbered list.",
       "fields": [
         {
           "id": "type",
@@ -847,7 +847,7 @@
         "id": "variantSection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:40:07.091Z",
-        "updatedAt": "2024-07-28T11:15:48.862Z",
+        "updatedAt": "2024-08-26T01:42:42.272Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -855,8 +855,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2024-07-28T11:15:48.862Z",
+        "publishedVersion": 43,
+        "publishedAt": "2024-08-26T01:42:42.272Z",
         "firstPublishedAt": "2024-07-28T09:40:07.674Z",
         "createdBy": {
           "sys": {
@@ -872,8 +872,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 15,
-        "version": 30,
+        "publishedCounter": 22,
+        "version": 44,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -884,8 +884,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/variantSection"
       },
       "displayField": "heading",
-      "name": "Section_Variant",
-      "description": "Provide the variant options for the component",
+      "name": "4_Variant_Section",
+      "description": "VARIANT: If applicable, describe and attach the Variant item(s).",
       "fields": [
         {
           "id": "type",
@@ -940,7 +940,7 @@
         },
         {
           "id": "content",
-          "name": "Content_Basic",
+          "name": "Variant_Section_Block",
           "type": "Array",
           "localized": false,
           "required": false,
@@ -974,7 +974,7 @@
         "id": "behaviourSection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:40:26.963Z",
-        "updatedAt": "2024-07-29T03:51:18.314Z",
+        "updatedAt": "2024-08-26T01:44:17.608Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -982,8 +982,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 17,
-        "publishedAt": "2024-07-29T03:51:18.314Z",
+        "publishedVersion": 25,
+        "publishedAt": "2024-08-26T01:44:17.608Z",
         "firstPublishedAt": "2024-07-28T09:40:27.399Z",
         "createdBy": {
           "sys": {
@@ -999,8 +999,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 9,
-        "version": 18,
+        "publishedCounter": 13,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1011,8 +1011,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/behaviourSection"
       },
       "displayField": "heading",
-      "name": "Section_Behaviour",
-      "description": "Describe the behaviour of the component",
+      "name": "6_Behaviour_Section",
+      "description": "BEHAVIOUR: Describe the behaviour of the component.",
       "fields": [
         {
           "id": "type",
@@ -1127,7 +1127,7 @@
         "id": "accessibilitySection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:40:45.201Z",
-        "updatedAt": "2024-07-28T11:28:07.221Z",
+        "updatedAt": "2024-08-26T01:44:32.639Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1135,8 +1135,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 25,
-        "publishedAt": "2024-07-28T11:28:07.221Z",
+        "publishedVersion": 41,
+        "publishedAt": "2024-08-26T01:44:32.639Z",
         "firstPublishedAt": "2024-07-28T09:40:46.065Z",
         "createdBy": {
           "sys": {
@@ -1152,8 +1152,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 13,
-        "version": 26,
+        "publishedCounter": 21,
+        "version": 42,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1164,8 +1164,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/accessibilitySection"
       },
       "displayField": "heading",
-      "name": "Section_Accessibility",
-      "description": "Describe best practice for accessibility",
+      "name": "5_Accessibility_Section",
+      "description": "ACCESSIBILITY: Describe best practices for accessibility.",
       "fields": [
         {
           "id": "type",
@@ -1257,7 +1257,7 @@
         "id": "contentSection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:41:14.746Z",
-        "updatedAt": "2024-08-01T01:09:49.984Z",
+        "updatedAt": "2024-08-26T01:45:23.333Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1265,8 +1265,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2024-08-01T01:09:49.984Z",
+        "publishedVersion": 41,
+        "publishedAt": "2024-08-26T01:45:23.333Z",
         "firstPublishedAt": "2024-07-28T09:41:15.315Z",
         "createdBy": {
           "sys": {
@@ -1282,8 +1282,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 15,
-        "version": 30,
+        "publishedCounter": 21,
+        "version": 42,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1294,8 +1294,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/contentSection"
       },
       "displayField": "heading",
-      "name": "Section_WrittenContent",
-      "description": "Guidelines for writing content",
+      "name": "7_UX_Writing_Section",
+      "description": "UX GUIDELINES: Rules for writing content that is related to the component.",
       "fields": [
         {
           "id": "type",
@@ -1332,7 +1332,7 @@
           "validations": [
           ],
           "defaultValue": {
-            "en-US": "Content"
+            "en-US": "UX Writing"
           },
           "disabled": false,
           "omitted": false
@@ -1387,7 +1387,7 @@
         "id": "relatedSection",
         "type": "ContentType",
         "createdAt": "2024-07-28T09:41:32.184Z",
-        "updatedAt": "2024-07-31T06:31:40.006Z",
+        "updatedAt": "2024-08-26T01:50:31.221Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1395,8 +1395,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2024-07-31T06:31:40.006Z",
+        "publishedVersion": 37,
+        "publishedAt": "2024-08-26T01:50:31.221Z",
         "firstPublishedAt": "2024-07-28T09:41:32.803Z",
         "createdBy": {
           "sys": {
@@ -1412,8 +1412,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 15,
-        "version": 30,
+        "publishedCounter": 19,
+        "version": 38,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1424,8 +1424,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/relatedSection"
       },
       "displayField": "heading",
-      "name": "Section_Related",
-      "description": "Add related patterns or components",
+      "name": "9_Related_Section",
+      "description": "RELATED: Attach related patterns or components",
       "fields": [
         {
           "id": "type",
@@ -1503,7 +1503,7 @@
         "id": "organisation",
         "type": "ContentType",
         "createdAt": "2024-07-29T00:46:15.565Z",
-        "updatedAt": "2024-07-29T00:48:54.442Z",
+        "updatedAt": "2024-08-26T01:28:45.718Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1511,8 +1511,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2024-07-29T00:48:54.442Z",
+        "publishedVersion": 31,
+        "publishedAt": "2024-08-26T01:28:45.718Z",
         "firstPublishedAt": "2024-07-29T00:46:16.042Z",
         "createdBy": {
           "sys": {
@@ -1528,8 +1528,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 16,
+        "version": 32,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1540,43 +1540,15 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/organisation"
       },
       "displayField": "title",
-      "name": "Organisation",
-      "description": "The Organisation content type is used to define the global settings for the organisation. This includes the main heading, logo, theme color, and references to the various guidelines that are applicable across the application. These settings provide a consistent look and feel and are used across multiple components such as the header and introduction sections.",
+      "name": "0_Home",
+      "description": "HOME TEMPLATE: Use this template to create your own design guidelines within Figma.",
       "fields": [
         {
           "id": "title",
-          "name": "Title",
+          "name": "Design System Title",
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "logo",
-          "name": "Logo",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "linkMimetypeGroup": [
-                "image"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "theme",
-          "name": "Theme",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -1584,7 +1556,7 @@
         },
         {
           "id": "guidelines",
-          "name": "Guidelines",
+          "name": "Design System Guidelines",
           "type": "Array",
           "localized": false,
           "required": false,
@@ -1618,7 +1590,7 @@
         "id": "contentRelatedItem",
         "type": "ContentType",
         "createdAt": "2024-07-31T04:41:36.062Z",
-        "updatedAt": "2024-08-01T01:15:39.457Z",
+        "updatedAt": "2024-08-26T01:53:37.456Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1626,8 +1598,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2024-08-01T01:15:39.457Z",
+        "publishedVersion": 29,
+        "publishedAt": "2024-08-26T01:53:37.456Z",
         "firstPublishedAt": "2024-07-31T04:41:36.495Z",
         "createdBy": {
           "sys": {
@@ -1643,8 +1615,8 @@
             "id": "7Efd4lJDRrilX0bjD8vo5O"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 15,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1655,8 +1627,8 @@
         "urn": "crn:contentful:::content:spaces/2waay8xeshgg/environments/master/content_types/contentRelatedItem"
       },
       "displayField": "title",
-      "name": "Content_Related",
-      "description": "Add links to related components",
+      "name": "9_Related_Section_Item",
+      "description": "RELATED ITEMS: Add links to related components",
       "fields": [
         {
           "id": "title",
@@ -1706,7 +1678,7 @@
             "linkType": "Space"
           }
         },
-        "version": 20,
+        "version": 52,
         "createdAt": "2024-07-28T06:09:56.932Z",
         "createdBy": {
           "sys": {
@@ -1715,7 +1687,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-08-07T01:27:54.850Z",
+        "updatedAt": "2024-09-14T08:24:18.644Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -1803,7 +1775,7 @@
             "linkType": "Space"
           }
         },
-        "version": 16,
+        "version": 40,
         "createdAt": "2024-07-28T06:33:09.226Z",
         "createdBy": {
           "sys": {
@@ -1812,7 +1784,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T10:31:59.959Z",
+        "updatedAt": "2024-12-10T04:14:18.168Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -1875,7 +1847,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 34,
         "createdAt": "2024-07-28T06:34:40.339Z",
         "createdBy": {
           "sys": {
@@ -1884,7 +1856,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T11:51:51.196Z",
+        "updatedAt": "2024-08-26T01:53:05.739Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -1939,7 +1911,7 @@
             "linkType": "Space"
           }
         },
-        "version": 38,
+        "version": 52,
         "createdAt": "2024-07-28T07:48:11.919Z",
         "createdBy": {
           "sys": {
@@ -1948,7 +1920,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T11:52:04.840Z",
+        "updatedAt": "2024-08-26T01:46:31.289Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2012,7 +1984,7 @@
             "linkType": "Space"
           }
         },
-        "version": 14,
+        "version": 36,
         "createdAt": "2024-07-28T07:56:20.108Z",
         "createdBy": {
           "sys": {
@@ -2021,7 +1993,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T11:47:13.959Z",
+        "updatedAt": "2024-08-26T01:51:52.742Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2096,7 +2068,7 @@
             "linkType": "Space"
           }
         },
-        "version": 24,
+        "version": 34,
         "createdAt": "2024-07-28T09:39:12.080Z",
         "createdBy": {
           "sys": {
@@ -2105,7 +2077,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T10:34:22.997Z",
+        "updatedAt": "2024-08-26T01:33:05.669Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2174,7 +2146,7 @@
             "linkType": "Space"
           }
         },
-        "version": 16,
+        "version": 24,
         "createdAt": "2024-07-28T09:39:33.722Z",
         "createdBy": {
           "sys": {
@@ -2183,7 +2155,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T10:44:21.820Z",
+        "updatedAt": "2024-08-26T01:34:47.147Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2270,7 +2242,7 @@
             "linkType": "Space"
           }
         },
-        "version": 30,
+        "version": 44,
         "createdAt": "2024-07-28T09:40:07.823Z",
         "createdBy": {
           "sys": {
@@ -2279,7 +2251,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T11:15:49.789Z",
+        "updatedAt": "2024-08-26T01:42:43.200Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2351,7 +2323,7 @@
             "linkType": "Space"
           }
         },
-        "version": 18,
+        "version": 26,
         "createdAt": "2024-07-28T09:40:27.573Z",
         "createdBy": {
           "sys": {
@@ -2360,7 +2332,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-29T03:51:19.423Z",
+        "updatedAt": "2024-08-26T01:44:18.629Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2447,7 +2419,7 @@
             "linkType": "Space"
           }
         },
-        "version": 26,
+        "version": 42,
         "createdAt": "2024-07-28T09:40:46.313Z",
         "createdBy": {
           "sys": {
@@ -2456,7 +2428,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-28T11:28:08.037Z",
+        "updatedAt": "2024-08-26T01:44:33.584Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2525,7 +2497,7 @@
             "linkType": "Space"
           }
         },
-        "version": 30,
+        "version": 42,
         "createdAt": "2024-07-28T09:41:15.476Z",
         "createdBy": {
           "sys": {
@@ -2534,7 +2506,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-08-01T01:09:50.895Z",
+        "updatedAt": "2024-08-26T01:45:24.586Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2603,7 +2575,7 @@
             "linkType": "Space"
           }
         },
-        "version": 30,
+        "version": 38,
         "createdAt": "2024-07-28T09:41:32.966Z",
         "createdBy": {
           "sys": {
@@ -2612,7 +2584,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-31T06:31:40.832Z",
+        "updatedAt": "2024-08-26T01:50:32.282Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2670,7 +2642,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 32,
         "createdAt": "2024-07-29T00:46:16.164Z",
         "createdBy": {
           "sys": {
@@ -2679,7 +2651,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-07-29T00:48:55.350Z",
+        "updatedAt": "2024-08-26T01:28:46.675Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
@@ -2712,27 +2684,9 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "logo",
-          "settings": {
-            "helpText": "Minimum 30x30px, ideally you provide SVG or a 2x-3x image for HD displays",
-            "showLinkEntityAction": true,
-            "showCreateEntityAction": true
-          },
-          "widgetId": "assetLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "theme",
-          "settings": {
-            "helpText": "Select a colour value for the theme of your guidelines. E.g. #b5d8a2"
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
           "fieldId": "guidelines",
           "settings": {
-            "helpText": "Select your guidelines",
+            "helpText": "Create your guidelines for your components or patterns",
             "bulkEditing": false,
             "showLinkEntityAction": true,
             "showCreateEntityAction": true
@@ -2753,7 +2707,7 @@
             "linkType": "Space"
           }
         },
-        "version": 12,
+        "version": 30,
         "createdAt": "2024-07-31T04:41:36.625Z",
         "createdBy": {
           "sys": {
@@ -2762,7 +2716,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2024-08-01T01:15:40.456Z",
+        "updatedAt": "2024-08-26T01:53:38.341Z",
         "updatedBy": {
           "sys": {
             "id": "7Efd4lJDRrilX0bjD8vo5O",
