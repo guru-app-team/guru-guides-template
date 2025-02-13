@@ -23,5 +23,6 @@ contentful space use --space-id YOUR_SPACE_ID
 - This will begin importing the templates from the Guru Github.
 
 ```
-contentful space import --content-file https://raw.githubusercontent.com/guru-app-team/content-model/6ab1f664e38fe39bf5fcadc2d1bf85650d7005be/guru-template.json
+contentful space import --content-file https://raw.githubusercontent.com/guru-app-team/guru-guides-template/refs/heads/main/guru-guides-template.json
 ```
+
