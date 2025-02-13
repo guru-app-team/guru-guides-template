@@ -19,10 +19,13 @@ contentful space use --space-id YOUR_SPACE_ID
 ```
 
 **Import Guru Guides template**
-- Copy the next command below and paste into the terminal.
+- Download [Raw Template File](https://github.com/guru-app-team/guru-guides-template/blob/main/guru-guides-template.json) from the Toolbar and this should save to your downloads folder on your machine.
+- Copy the command below and paste it into the terminal.
 - This will begin importing the templates from the Guru Github.
+- If your download location varies from what is described in the script below, please adjust accordingly.
+
 
 ```
-contentful space import --content-file https://raw.githubusercontent.com/guru-app-team/guru-guides-template/refs/heads/main/guru-guides-template.json
+contentful space import --content-file ~/Downloads/guru-guides-template.json
 ```
 
