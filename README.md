@@ -1,4 +1,4 @@
-# content-model
+# Guide Guides Template
 Importing Guru Guides template into Contentful for users to add their own guidelines to the Guru Guides plugin.
 
 
