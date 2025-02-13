@@ -4,7 +4,7 @@ Importing Guru Guides template into Contentful for users to add their own guidel
 
 **Login via the terminal**
 - Open the Terminal and paste the command into the blank terminal window.
-- It will prompt you to login into Contentful using your email and password.
+- It will prompt you to login into Contentful using your email and password to gain an access token.
 
 ```
 contentful login
