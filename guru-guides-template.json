@@ -58,8 +58,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -69,8 +68,7 @@
           "type": "Text",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -80,8 +78,17 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "penpotLink",
+          "name": "Penpot Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -91,8 +98,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -102,8 +108,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -113,8 +118,7 @@
           "type": "Array",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
@@ -197,8 +201,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -208,8 +211,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -219,8 +221,7 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -285,8 +286,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -296,8 +296,7 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -388,8 +387,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Rules"
           },
@@ -402,17 +400,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "doDontContentBlock"
-                ]
+                "linkContentType": ["doDontContentBlock"]
               }
             ],
             "linkType": "Entry"
@@ -478,8 +473,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -489,8 +483,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -514,9 +507,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "doDontItem"
-                ]
+                "linkContentType": ["doDontItem"]
               }
             ],
             "linkType": "Entry"
@@ -542,9 +533,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "doDontItem"
-                ]
+                "linkContentType": ["doDontItem"]
               }
             ],
             "linkType": "Entry"
@@ -636,8 +625,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Usage"
           },
@@ -650,14 +638,12 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Symbol",
-            "validations": [
-            ]
+            "validations": []
           }
         },
         {
@@ -668,10 +654,7 @@
           "required": false,
           "validations": [
             {
-              "in": [
-                "ol",
-                "ul"
-              ]
+              "in": ["ol", "ul"]
             }
           ],
           "defaultValue": {
@@ -766,8 +749,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Anatomy"
           },
@@ -780,8 +762,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -791,14 +772,12 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Symbol",
-            "validations": [
-            ]
+            "validations": []
           }
         },
         {
@@ -809,10 +788,7 @@
           "required": false,
           "validations": [
             {
-              "in": [
-                "ol",
-                "ul"
-              ]
+              "in": ["ol", "ul"]
             }
           ],
           "defaultValue": {
@@ -827,8 +803,7 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -919,8 +894,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Variants"
           },
@@ -933,8 +907,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -944,17 +917,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "contentBlock"
-                ]
+                "linkContentType": ["contentBlock"]
               }
             ],
             "linkType": "Entry"
@@ -1046,8 +1016,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Behaviour"
           },
@@ -1060,8 +1029,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -1071,14 +1039,12 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Symbol",
-            "validations": [
-            ]
+            "validations": []
           }
         },
         {
@@ -1089,10 +1055,7 @@
           "required": false,
           "validations": [
             {
-              "in": [
-                "ol",
-                "ul"
-              ]
+              "in": ["ol", "ul"]
             }
           ],
           "defaultValue": {
@@ -1107,8 +1070,7 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -1199,8 +1161,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Accessibility"
           },
@@ -1213,14 +1174,12 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Symbol",
-            "validations": [
-            ]
+            "validations": []
           }
         },
         {
@@ -1231,10 +1190,7 @@
           "required": false,
           "validations": [
             {
-              "in": [
-                "ol",
-                "ul"
-              ]
+              "in": ["ol", "ul"]
             }
           ],
           "defaultValue": {
@@ -1329,8 +1285,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "UX Writing"
           },
@@ -1343,14 +1298,12 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Symbol",
-            "validations": [
-            ]
+            "validations": []
           }
         },
         {
@@ -1361,10 +1314,7 @@
           "required": false,
           "validations": [
             {
-              "in": [
-                "ol",
-                "ul"
-              ]
+              "in": ["ol", "ul"]
             }
           ],
           "defaultValue": {
@@ -1459,8 +1409,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "defaultValue": {
             "en-US": "Related"
           },
@@ -1473,17 +1422,14 @@
           "type": "Array",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "contentRelatedItem"
-                ]
+                "linkContentType": ["contentRelatedItem"]
               }
             ],
             "linkType": "Entry"
@@ -1549,8 +1495,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -1560,17 +1505,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "guideline"
-                ]
+                "linkContentType": ["guideline"]
               }
             ],
             "linkType": "Entry"
@@ -1636,8 +1578,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -1647,8 +1588,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -1658,8 +1598,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         }
@@ -1731,6 +1670,14 @@
           "fieldId": "figmaLink",
           "settings": {
             "helpText": "URL to the Figma design file."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "penpotLink",
+          "settings": {
+            "helpText": "URL to the Penpot design file."
           },
           "widgetId": "urlEditor",
           "widgetNamespace": "builtin"
@@ -2814,8 +2761,7 @@
       }
     }
   ],
-  "webhooks": [
-  ],
+  "webhooks": [],
   "roles": [
     {
       "name": "Editor",
@@ -2855,19 +2801,12 @@
         }
       ],
       "permissions": {
-        "ContentModel": [
-          "read"
-        ],
-        "Settings": [
-        ],
-        "ContentDelivery": [
-        ],
-        "Environments": [
-        ],
-        "EnvironmentAliases": [
-        ],
-        "Tags": [
-        ]
+        "ContentModel": ["read"],
+        "Settings": [],
+        "ContentDelivery": [],
+        "Environments": [],
+        "EnvironmentAliases": [],
+        "Tags": []
       },
       "sys": {
         "type": "Role",
