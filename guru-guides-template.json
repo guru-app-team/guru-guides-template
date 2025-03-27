@@ -83,16 +83,6 @@
           "omitted": false
         },
         {
-          "id": "penpotLink",
-          "name": "Penpot Link",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [],
-          "disabled": false,
-          "omitted": false
-        },
-        {
           "id": "storybookLink",
           "name": "Storybook Link",
           "type": "Symbol",
@@ -1670,14 +1660,6 @@
           "fieldId": "figmaLink",
           "settings": {
             "helpText": "URL to the Figma design file."
-          },
-          "widgetId": "urlEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "penpotLink",
-          "settings": {
-            "helpText": "URL to the Penpot design file."
           },
           "widgetId": "urlEditor",
           "widgetNamespace": "builtin"
