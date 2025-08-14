@@ -1593,7 +1593,17 @@
         },
         {
           "id": "url",
-          "name": "URL",
+          "name": "Figma URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "websiteUrl",
+          "name": "Website URL",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -2908,7 +2918,15 @@
         {
           "fieldId": "url",
           "settings": {
-            "helpText": "Link to the Figma component."
+            "helpText": "Used when viewing in the Figma plugin. Links directly to the corresponding Figma component in your design library."
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "websiteUrl",
+          "settings": {
+            "helpText": "Used when viewing on the web platform. Links to the component’s guideline page rather than the raw Figma component."
           },
           "widgetId": "urlEditor",
           "widgetNamespace": "builtin"
