@@ -73,6 +73,17 @@
           "omitted": false
         },
         {
+          "id": "homeImage",
+          "name": "Component Home Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
           "id": "figmaLink",
           "name": "Figma Link",
           "type": "Symbol",
@@ -1884,6 +1895,16 @@
             "helpText": "A detailed description of the guideline."
           },
           "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "homeImage",
+          "settings": {
+            "helpText": "Image shown on this guideline's home page card.",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         },
         {
